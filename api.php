@@ -1,4 +1,16 @@
 <?php
+    // Allow browser-based clients such as Libre-UI to call the API directly.
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+    header("Access-Control-Allow-Headers: Content-Type, Accept, Origin");
+    header("Access-Control-Max-Age: 86400");
+
+    // Handle CORS preflight requests before loading the search engine.
+    if ($_SERVER["REQUEST_METHOD"] === "OPTIONS") {
+        http_response_code(204);
+        exit();
+    }
+
     require_once "misc/search_engine.php";
     require_once "locale/localization.php";
 

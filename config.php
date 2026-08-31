@@ -25,11 +25,11 @@
             "quetre" => array("instance_url" => "", "project_url" => "https://github.com/zyachel/quetre#instances", "original_name" => "Quora", "original_url" => "quora.com"),
             "libremdb" => array("instance_url" => "", "project_url" => "https://github.com/zyachel/libremdb#instances", "original_name" => "IMDb", "original_url" => "imdb.com"),
             "breezewiki" => array("instance_url" => "", "project_url" => "https://docs.breezewiki.com/Links.html", "original_name" => "Fandom", "original_url" => "fandom.com"),
-            "anonymousoverflow" => array("instance_url" => "", "project_url" => "https://github.com/httpjamesm/AnonymousOverflow#clearnet-instances", "original_name" => "StackOverflow", "original_url" => "stackoverflow.com"),
+            "anonymousoverflow" => array("instance_url" => "", "project_url" => "https://github.com/httpjamesm/AnonymousOverflow#instances", "original_name" => "StackOverflow", "original_url" => "stackoverflow.com"),
             "suds" => array("instance_url" => "", "project_url" => "https://git.vern.cc/cobra/Suds/src/branch/main/instances.json", "original_name" => "Snopes", "original_url" => "snopes.com"),
             "biblioreads" => array("instance_url" => "", "project_url" => "https://github.com/nesaku/BiblioReads#instances", "original_name" => "Goodreads", "original_url" => "goodreads.com")
         ),
-        "preferred_engines" => array("text" => "bing"),
+        "preferred_engines" => array("text" => "duckduckgo"),
         "curl_settings" => array(
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",

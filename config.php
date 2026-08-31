@@ -29,7 +29,7 @@
             "suds" => array("instance_url" => "", "project_url" => "https://git.vern.cc/cobra/Suds/src/branch/main/instances.json", "original_name" => "Snopes", "original_url" => "snopes.com"),
             "biblioreads" => array("instance_url" => "", "project_url" => "https://github.com/nesaku/BiblioReads#instances", "original_name" => "Goodreads", "original_url" => "goodreads.com")
         ),
-        "preferred_engines" => array("text" => "bing"),
+        "preferred_engines" => array("text" => "google"),
         "curl_settings" => array(
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",

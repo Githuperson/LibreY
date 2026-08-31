@@ -1,5 +1,5 @@
-<?php require_once "locale/localization.php";
-      $GLOBALS["opts"] = require_once "config.php";
+<?php require_once __DIR__ . "/../locale/localization.php";
+      $GLOBALS["opts"] = require_once __DIR__ . "/../config.php";
  ?>
 <!DOCTYPE html >
 <html lang="en">
